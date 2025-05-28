@@ -5,28 +5,29 @@ import java.util.LinkedList;
 public class Main {
     public static void main(String[] args) {
         LinkedList<String> listaMusica = new LinkedList<>();
+        System.out.println("--------Playlist de Música--------");
 
-        listaMusica.add("reproducción siguiente");
-        listaMusica.add("Bohemian Rhapsody");
-        listaMusica.add("Billie Jean");
-        listaMusica.add("Hotel California");
-        listaMusica.add("Despacito");
-        listaMusica.add("Blinding Lights");
-        listaMusica.add("Open Hearts");
-        listaMusica.add("Imagine");
-        listaMusica.add("Wonderwall");
-        listaMusica.add("Smells Like Teen Spirit");
-        listaMusica.add("Shape of You");
+        listaMusica.add("Reproducción siguiente");
+        listaMusica.add("Let Down");
+        listaMusica.add("Skinny");
+        listaMusica.add("The Greatest");
+        listaMusica.add("The Winner Is...");
+        listaMusica.add("We Hug Now");
+        listaMusica.add("Creep");
+        listaMusica.add("Just a Man");
+        listaMusica.add("The Cut That Always Bleeds");
+        listaMusica.add("Family Line");
+        listaMusica.add("I Can't Handle Change");
 
-        System.out.println("Mi lista de musica: " + listaMusica);
+        System.out.println("Mi lista de música: " + listaMusica);
 
         listaMusica.removeLast();
-        System.out.println("Mi lista de musica (último registro eliminado): " + listaMusica);
+        System.out.println("Mi lista de música (último registro eliminado): " + listaMusica);
 
         listaMusica.add("Canción 1");
         listaMusica.add("Canción 2");
         listaMusica.add("Canción 3");
 
-        System.out.printf("Mi lista de musica (con tres canciones agregadas: )" + listaMusica);
+        System.out.printf("Mi lista de música (con tres canciones agregadas: )" + listaMusica);
     }
 }

@@ -7,6 +7,7 @@ import java.util.TreeMap;
 public class Main {
     public static void main(String[] args) {
         TreeMap<String, Integer> tempCiudad = new TreeMap<>();
+        System.out.println("--------Registro de Temperaturas por Ciudad--------");
 
         tempCiudad.put("London", 15);
         tempCiudad.put("Tokyo", 25);

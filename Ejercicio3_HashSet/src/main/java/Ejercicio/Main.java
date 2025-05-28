@@ -6,6 +6,7 @@ import java.util.HashSet;
 public class Main {
     public static void main(String[] args) {
         Set<String> listaPalabras = new HashSet<>();
+        System.out.println("--------Filtro de Palabras Repetidas--------");
 
         listaPalabras.add("hola");
         listaPalabras.add("mundo");
